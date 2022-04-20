@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#111111">
+		<title>Burgertron Media</title>
+
+		<link rel="manifest" href="/.webmanifest">
+		<link rel="stylesheet" href="/btm/style.css">
+		<script src="/btm/btm.js"></script>
+	</head>
+	<body onload="reloadListing()">
+		<div id="header">
+			<a href="/" class="logo">Burgertron</a>
+			<a class="header-item">Media</a>
+		</div>
+		<div id="media-content">
+			<div id="player">
+				<div id="player-nomedia">
+					no media.
+				</div>
+				<video controls id="player-video"></video>
+			</div>
+			<div id="browser">
+				<table id="browser-table"></table>
+			</div>
+		</div>
+	</body>
+</html>
